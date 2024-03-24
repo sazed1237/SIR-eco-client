@@ -1,0 +1,292 @@
+[
+    {
+        "_id": "1",
+        "name": "Anchor Bracelet",
+        "price": 49.99,
+        "details": "High-quality wireless earbuds with noise-canceling technology.",
+        "category": "Accessories",
+        "img": "https://i.ibb.co/QJpFhwL/product-accessory2-300x300.jpg",
+        "rating": 4.5,
+        "quantity": 100,
+        "featured": "popular"
+
+    },
+    {
+        "_id": "2",
+        "name": "Black Hoodie",
+        "price": 29.99,
+        "details": "Durable canvas backpack suitable for daily use or travel.",
+        "category": "Men",
+        "img": "https://i.ibb.co/jg0kQDq/product-hoodie1-300x300.jpg",
+        "rating": 4.2,
+        "quantity": 50
+    },
+    {
+        "_id": "3",
+        "name": "Black Over-the-shoulder Handbag",
+        "price": 12.99,
+        "details": "Adjustable smartphone stand for hands-free use.",
+        "category": "Accessories",
+        "img": "https://i.ibb.co/4ZdyKdz/product-bag2-300x300.jpg",
+        "rating": 4.7,
+        "quantity": 80,
+        "featured": "popular"
+    },
+    {
+        "_id": "4",
+        "name": "Boho Bangle Bracelet",
+        "price": 19.99,
+        "details": "Eco-friendly water bottle, BPA-free and keeps drinks cold for 24 hours.",
+        "category": "Accessories",
+        "img": "https://i.ibb.co/fx4n94B/product-accessory1-300x300.jpg",
+        "rating": 4.8,
+        "quantity": 120
+    },
+    {
+        "_id": "5",
+        "name": "Blue Hoodie",
+        "price": 39.99,
+        "details": "Genuine leather wallet with multiple card slots and RFID blocking.",
+        "category": "Men",
+        "img": "https://i.ibb.co/M929794/product-hoodie2-300x300.jpg",
+        "rating": 4.6,
+        "quantity": 60
+    },
+    {
+        "_id": "6",
+        "name": "Bright Gold Purse With Chain",
+        "price": 24.99,
+        "details": "Qi-compatible wireless charging pad for smartphones and other devices.",
+        "category": "Accessories",
+        "img": "https://i.ibb.co/gm68LjR/product-bag4-300x300.jpg",
+        "rating": 4.3,
+        "quantity": 90
+    },
+    {
+        "_id": "7",
+        "name": "Bright Red Bag",
+        "price": 15.99,
+        "details": "Non-slip yoga mat with carry strap, suitable for all types of yoga practice.",
+        "category": "Accessories",
+        "img": "https://i.ibb.co/hmk6v4D/product-bag3-300x300.jpg",
+        "rating": 4.9,
+        "quantity": 70,
+        "featured": "popular"
+    },
+    {
+        "_id": "8",
+        "name": "Buddha Bracelet",
+        "price": 18.99,
+        "details": "Accurate digital kitchen scale with LCD display, perfect for baking and cooking.",
+        "category": "Accessories",
+        "img": "https://i.ibb.co/3BDHsFW/product-accessory3-300x300.jpg",
+        "rating": 4.4,
+        "quantity": 110
+    },
+    {
+        "_id": "9",
+        "name": "Light Brown Purse",
+        "price": 34.99,
+        "details": "Adjustable LED desk lamp with multiple brightness levels and USB charging port.",
+        "category": "Accessories",
+        "img": "https://i.ibb.co/vQQYL6D/product-bag1-300x300.jpg",
+        "rating": 4.7,
+        "quantity": 75
+    },
+    {
+        "_id": "10",
+        "name": "Basic Gray Jeans",
+        "price": 59.99,
+        "details": "Lightweight and breathable running shoes designed for maximum comfort and performance.",
+        "category": "Women",
+        "img": "https://i.ibb.co/NCdYQSz/product-w-jeans2-300x300.jpg",
+        "rating": 4.5,
+        "quantity": 55,
+        "featured": "popular"
+    },
+    {
+        "_id": "11",
+        "name": "Wireless Mouse",
+        "price": 14.99,
+        "details": "Ergonomic wireless mouse with precision tracking.",
+        "category": "Accessories",
+        "img": "https://example.com/wireless-mouse.jpg",
+        "rating": 4.2,
+        "quantity": 85
+    },
+    {
+        "_id": "12",
+        "name": "Blue Tshirt",
+        "price": 19.99,
+        "details": "https://i.ibb.co/C8ZX7m1/tshirt2-300x300.jpg",
+        "category": "Men",
+        "img": "https://example.com/mens-sunglasses.jpg",
+        "rating": 4.6,
+        "quantity": 40
+    },
+    {
+        "_id": "13",
+        "name": "Dark Blue Denim Jeans",
+        "price": 79.99,
+        "details": "High-speed portable external hard drive for data storage and backup.",
+        "category": "Men",
+        "img": "https://i.ibb.co/FKN7sr6/product-m-jeans1-300x300.jpg",
+        "rating": 4.7,
+        "quantity": 65,
+        "featured": "popular"
+    },
+    {
+        "_id": "14",
+        "name": "Blue Denim Jeans",
+        "price": 49.99,
+        "details": "Stylish women's handbag with multiple compartments.",
+        "category": "Women",
+        "img": "https://i.ibb.co/H7qs6fm/product-w-jeans3-300x300.jpg",
+        "rating": 4.3,
+        "quantity": 30,
+        "featured": "popular"
+    },
+    {
+        "_id": "15",
+        "name": "Dark Brown Jeans",
+        "price": 39.99,
+        "details": "Waterproof fitness tracker watch with heart rate monitor and GPS.",
+        "category": "Men",
+        "img": "https://i.ibb.co/jvk9qQk/product-m-jeans2-300x300.jpg",
+        "rating": 4.5,
+        "quantity": 95
+    },
+    {
+        "_id": "16",
+        "name": "Dark Gray Jeans",
+        "price": 59.99,
+        "details": "Classic men's dress shoes suitable for formal occasions.",
+        "category": "Men",
+        "img": "https://i.ibb.co/vxd0q8P/product-m-jeans3-300x300.jpg",
+        "rating": 4.4,
+        "quantity": 50
+    },
+    {
+        "_id": "17",
+        "name": "DNK Blue Shoes",
+        "price": 29.99,
+        "details": "Portable Bluetooth speaker with high-quality sound.",
+        "category": "Electronics",
+        "img": "https://i.ibb.co/j3fXg18/sports-shoe1-300x300.jpg",
+        "rating": 4.6,
+        "quantity": 75,
+        "featured": "popular"
+    },
+    {
+        "_id": "18",
+        "name": "Blue Denim Shorts",
+        "price": 12.99,
+        "details": "Soft and lightweight women's scarf in various colors.",
+        "category": "Women",
+        "img": "https://i.ibb.co/WBJJdph/product-w-jeans1-300x300.jpg",
+        "rating": 4.6,
+        "quantity": 75
+    },
+    {
+        "_id": "19",
+        "name": "DNK Green Shoes",
+        "price": 34.99,
+        "details": "High-performance gaming mouse with customizable RGB lighting.",
+        "category": "Men",
+        "img": "https://i.ibb.co/25FqYhD/sports-shoe3-300x300.jpg",
+        "rating": 4.8,
+        "quantity": 60,
+        "featured": "popular"
+    },
+    {
+        "_id": "20",
+        "name": "Men's Hoodie",
+        "price": 24.99,
+        "details": "Comfortable men's hoodie with fleece lining.",
+        "category": "Men",
+        "img": "https://i.ibb.co/Qd6gGzh/product-hoodie4-jpg-300x300.jpg",
+        "rating": 4.5,
+        "quantity": 70
+    },
+    {
+        "_id": "21",
+        "name": "DNK Yellow Shoes",
+        "price": 39.99,
+        "details": "Wireless keyboard with quiet keys and long battery life.",
+        "category": "Men",
+        "img": "https://i.ibb.co/sW4y8bQ/sports-shoe2-300x300.jpg",
+        "rating": 4.4,
+        "quantity": 80
+    },
+    {
+        "_id": "22",
+        "name": "DNK Black Shoes",
+        "price": 59.99,
+        "details": "Elegant women's watch with analog display and stainless steel strap.",
+        "category": "Women",
+        "img": "https://i.ibb.co/zRYDxyk/sports-shoe5-300x300.jpg",
+        "rating": 4.6,
+        "quantity": 45
+    },
+    {
+        "_id": "23",
+        "name": "Faint Washed Denim Blue Jeans",
+        "price": 19.99,
+        "details": "Set of resistance bands for home workouts and physical therapy.",
+        "category": "Men",
+        "img": "https://i.ibb.co/hRGW7cJ/product-m-jeans4-300x300.jpg",
+        "rating": 4.7,
+        "quantity": 90
+    },
+    {
+        "_id": "24",
+        "name": "Men's T-shirt",
+        "price": 14.99,
+        "details": "Casual men's t-shirt made of breathable cotton fabric.",
+        "category": "Men",
+        "img": "https://i.ibb.co/hWNxNZ7/tshirt7-300x300.jpg",
+        "rating": 4.3,
+        "quantity": 100
+    },
+    {
+        "_id": "25",
+        "name": "Slim Fit Blue Jeans",
+        "price": 9.99,
+        "details": "Compact and portable USB flash drive for storing and transferring files.",
+        "category": "Women",
+        "img": "https://i.ibb.co/VMk7bt4/product-w-jeans4.jpg",
+        "rating": 4.2,
+        "quantity": 120,
+        "featured": "popular"
+    },
+    {
+        "_id": "26",
+        "name": "Lemons Tshirt",
+        "price": 12.99,
+        "details": "Set of yoga blocks for support and alignment in yoga poses.",
+        "category": "Women",
+        "img": "https://i.ibb.co/hWNxNZ7/tshirt7-300x300.jpg",
+        "rating": 4.8,
+        "quantity": 80
+    },
+    {
+        "_id": "27",
+        "name": "Flamingo Tshirt",
+        "price": 39.99,
+        "details": "Stylish and spacious women's backpack for everyday use.",
+        "category": "Women",
+        "img": "https://i.ibb.co/LZkz3m3/tshirt3-300x300.jpg",
+        "rating": 4.5,
+        "quantity": 60
+    },
+    {
+        "_id": "28",
+        "name": "Gray Pattern Tshirt",
+        "price": 29.99,
+        "details": "Compact and lightweight blender for making smoothies on the go.",
+        "category": "Women",
+        "img": "https://i.ibb.co/DzrSZ7S/tshirt4-300x300.jpg",
+        "rating": 4.6,
+        "quantity": 70
+    }
+]
