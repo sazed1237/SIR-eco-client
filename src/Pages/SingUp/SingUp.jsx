@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import loginImg from '../../assets/others/authentication2.png';
+import loginImg from '../../assets/login.jpg';
 import loginBG from '../../assets/others/authentication.png';
 import { AuthContext } from '../../Providers/AuthProvider';
 import SocialLogin from '../Shared/SocialLogin/SocialLogin';
@@ -45,8 +45,8 @@ const SingUp = () => {
                                     console.log('user added in database')
 
                                     Swal.fire({
-                                        title: "Good job!",
-                                        text: "You clicked the button!",
+                                        title: "Logged in",
+                                        text: "Your are Logged in Now",
                                         icon: "success"
                                     });
 
@@ -152,7 +152,7 @@ const SingUp = () => {
 
 
                                 <div className="form-control mt-6">
-                                    <input className='btn bg-[#D1A054] bg-opacity-60 hover:bg-[#D1A054] text-white' type="submit" value="Sing In" />
+                                    <input className='btn bg-[#D1A054] bg-opacity-60 hover:bg-[#D1A054] text-white' type="submit" value="Sing Up" />
                                     <span className='text-center my-2 text-[#D1A054]'>Already Have an Account? <Link to={'/login'}>Login</Link></span>
                                 </div>
                                 <div>

@@ -27,7 +27,7 @@ const Dashboard = () => {
                                 Admin Home
                             </NavLink></li>
 
-                            <li><NavLink to={'dashboard/addProduct'}>
+                            <li><NavLink to={'/dashboard/addItems'}>
                                 <FaProductHunt></FaProductHunt>
                                 Add Product
                             </NavLink></li>

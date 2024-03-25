@@ -1,4 +1,4 @@
-import loginImg from '../../assets/others/authentication2.png';
+import loginImg from '../../assets/login.jpg';
 import loginBG from '../../assets/others/authentication.png';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import SocialLogin from '../Shared/SocialLogin/SocialLogin';
@@ -81,7 +81,7 @@ const Login = () => {
 
 
                                 <div className="form-control mt-6">
-                                    <input className='btn bg-[#D1A054] bg-opacity-60 hover:bg-[#D1A054] text-white' type="submit"  value="Sing In" />
+                                    <input className='btn bg-[#D1A054] bg-opacity-60 hover:bg-[#D1A054] text-white' type="submit" value="Sing In" />
                                     <span className='text-center my-2 text-[#D1A054]'>New Here? <Link to={'/singup'}>Create a New Account</Link></span>
                                 </div>
                                 <div>
