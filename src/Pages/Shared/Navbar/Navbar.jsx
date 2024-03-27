@@ -16,10 +16,10 @@ const Navbar = () => {
 
     const navMenus = <>
         <li><Link to={'/'}>Home</Link></li>
-        <li><Link to={'/everything'}>Everything</Link></li>
-        <li><Link to={'/men'}>Men</Link></li>
-        <li><Link to={'/women'}>Women</Link></li>
-        <li><Link to={'/accessories'}>Accessories</Link></li>
+        <li><Link to={'/productStore/everything'}>Everything</Link></li>
+        <li><Link to={'/productStore/men'}>Men</Link></li>
+        <li><Link to={'/productStore/women'}>Women</Link></li>
+        <li><Link to={'/productStore/accessories'}>Accessories</Link></li>
         <li><Link to={'/contact'}>Contact Us</Link></li>
         <li><Link to={'/dashboard'}>Dashboard</Link></li>
     </>

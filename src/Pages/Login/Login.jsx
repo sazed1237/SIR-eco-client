@@ -1,4 +1,4 @@
-import loginImg from '../../assets/login.jpg';
+import loginImg from '../../assets/others/login.png';
 import loginBG from '../../assets/others/authentication.png';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import SocialLogin from '../Shared/SocialLogin/SocialLogin';

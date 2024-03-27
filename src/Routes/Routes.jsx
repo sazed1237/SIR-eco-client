@@ -12,6 +12,16 @@ import UserHome from "../Pages/Dashboard/UserHome/UserHome";
 import PrivateRoute from "./PrivateRoute";
 import AllUsers from "../Pages/Dashboard/Admin/AllUsers/AllUsers";
 import AddItems from "../Pages/Dashboard/Admin/AddItems/AddItems";
+import AdminRoute from "./AdminRoute";
+import ManageProducts from "../Pages/Dashboard/Admin/ManageProducts/ManageProducts";
+import Payment from "../Pages/Dashboard/Payment/Payment";
+import PaymentHistory from "../Pages/Dashboard/PaymentHistory/PaymentHistory";
+import Everything from "../Pages/Everything/Everything";
+import ProductStore from "../Layout/ProductStore";
+import Men from "../Pages/Men/Men";
+import Women from "../Pages/Women/Women";
+import Accessories from "../Pages/Accessories/Accessories";
+import Contact from "../Pages/Contact/Contact";
 
 
 
@@ -24,6 +34,7 @@ export const router = createBrowserRouter([
                 path: '/',
                 element: <Home></Home>
             },
+
             {
                 path: '/product-details',
                 element: <ProductDetails></ProductDetails>
@@ -39,6 +50,32 @@ export const router = createBrowserRouter([
             {
                 path: 'cart',
                 element: <PrivateRoute><Cart></Cart></PrivateRoute>
+            },
+            {
+                path: 'contact',
+                element: <Contact></Contact>
+            }
+        ]
+    },
+    {
+        path: '/productStore',
+        element: <ProductStore></ProductStore>,
+        children: [
+            {
+                path: 'everything',
+                element: <Everything></Everything>
+            },
+            {
+                path: 'men',
+                element: <Men></Men>
+            },
+            {
+                path: 'women',
+                element: <Women></Women>
+            },
+            {
+                path: 'accessories',
+                element: <Accessories></Accessories>
             }
         ]
     },
@@ -50,17 +87,29 @@ export const router = createBrowserRouter([
                 path: 'userHome',
                 element: <UserHome></UserHome>
             },
+            {
+                path: 'payment',
+                element: <Payment></Payment>
+            },
+            {
+                path: 'paymentHistory',
+                element: <PaymentHistory></PaymentHistory>
+            },
 
 
 
             // admin route
             {
                 path: 'users',
-                element: <AllUsers></AllUsers>
+                element: <AdminRoute><AllUsers></AllUsers></AdminRoute>
             },
             {
                 path: 'addItems',
-                element: <AddItems></AddItems>
+                element: <AdminRoute><AddItems></AddItems></AdminRoute>
+            },
+            {
+                path: 'manageProducts',
+                element: <AdminRoute><ManageProducts></ManageProducts></AdminRoute>
             }
 
         ]

@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import loginImg from '../../assets/login.jpg';
+import loginImg from '../../assets/others/login.png';
 import loginBG from '../../assets/others/authentication.png';
 import { AuthContext } from '../../Providers/AuthProvider';
 import SocialLogin from '../Shared/SocialLogin/SocialLogin';

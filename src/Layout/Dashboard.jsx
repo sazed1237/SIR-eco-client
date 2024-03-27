@@ -10,7 +10,7 @@ const Dashboard = () => {
     const [cart] = useCart()
 
     const [isAdmin] = useAdmin();
-    console.log(isAdmin)
+    // console.log(isAdmin)
 
     return (
         <div className='flex'>
@@ -32,7 +32,7 @@ const Dashboard = () => {
                                 Add Product
                             </NavLink></li>
 
-                            <li><NavLink to={'/dashboard/manageProduct'}>
+                            <li><NavLink to={'/dashboard/manageProducts'}>
                                 <FaList></FaList>
                                 Manage Product
                             </NavLink></li>
@@ -77,7 +77,7 @@ const Dashboard = () => {
                     </NavLink></li>
 
 
-                    <li><NavLink to={'/shop'}>
+                    <li><NavLink to={'/productStore/everything'}>
                         <FaShoppingBag></FaShoppingBag>
                         Shop
                     </NavLink></li>

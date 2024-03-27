@@ -113,7 +113,7 @@ const Cart = () => {
                         <p className='flex-1 text-center text-2xl'>${totalPrice}</p>
                     </div>
                     <div className='flex justify-center my-3 mx-4'>
-                        <Link className="w-full rounded-none mx-10 btn bg-sky-500 hover:bg-sky-400 text-white items-center justify-center uppercase">Checkout</Link>
+                        <Link to='/dashboard/payment' className="w-full rounded-none mx-10 btn bg-sky-500 hover:bg-sky-400 text-white items-center justify-center uppercase">Checkout</Link>
                     </div>
                 </div>
             </div>
