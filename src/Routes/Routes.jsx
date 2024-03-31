@@ -22,6 +22,7 @@ import Men from "../Pages/Men/Men";
 import Women from "../Pages/Women/Women";
 import Accessories from "../Pages/Accessories/Accessories";
 import Contact from "../Pages/Contact/Contact";
+import AdminHome from "../Pages/Dashboard/Admin/AdminHome/AdminHome";
 
 
 
@@ -98,7 +99,11 @@ export const router = createBrowserRouter([
 
 
 
-            // admin route
+            // Admin Only route
+            {
+                path: 'adminHome',
+                element: <AdminRoute><AdminHome></AdminHome></AdminRoute>
+            },
             {
                 path: 'users',
                 element: <AdminRoute><AllUsers></AllUsers></AdminRoute>
@@ -110,7 +115,8 @@ export const router = createBrowserRouter([
             {
                 path: 'manageProducts',
                 element: <AdminRoute><ManageProducts></ManageProducts></AdminRoute>
-            }
+            },
+
 
         ]
     }

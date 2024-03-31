@@ -15,7 +15,7 @@ const Dashboard = () => {
     return (
         <div className='flex'>
             {/* Dashboard side bar */}
-            <div className='w-64 min-h-screen bg-[#D1A054]'>
+            <div className='w-64 min-h-screen bg-slate-300'>
                 <div className='text-center pt-3 pb-8 text-4xl font-bold'>
                     <h1>SIR Eco <br /> <span className='font-light '>Dashboard</span></h1>
                 </div>

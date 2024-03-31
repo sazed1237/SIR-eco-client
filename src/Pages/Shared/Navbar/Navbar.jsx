@@ -2,11 +2,13 @@ import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../../Providers/AuthProvider';
 import useCart from '../../../hooks/useCart';
+import useAdmin from '../../../hooks/useAdmin';
 
 const Navbar = () => {
 
     const { user, logOut } = useContext(AuthContext)
     const [cart] = useCart()
+    const [isAdmin] = useAdmin()
 
     const handleLogOut = () => {
         logOut()
@@ -21,7 +23,12 @@ const Navbar = () => {
         <li><Link to={'/productStore/women'}>Women</Link></li>
         <li><Link to={'/productStore/accessories'}>Accessories</Link></li>
         <li><Link to={'/contact'}>Contact Us</Link></li>
-        <li><Link to={'/dashboard'}>Dashboard</Link></li>
+        {
+            user && isAdmin && <li><Link to={'/dashboard/AdminHome'}>Dashboard</Link></li>
+        }
+        {
+            user && !isAdmin && <li><Link to={'/dashboard/userHome'}>Dashboard</Link></li>
+        }
     </>
     return (
         <div className="navbar h-20  bg-base-100 ">

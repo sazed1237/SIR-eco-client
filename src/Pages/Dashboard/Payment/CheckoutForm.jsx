@@ -20,9 +20,10 @@ const CheckoutForm = () => {
     const [cart, refetch] = useCart()
     const navigate = useNavigate()
 
-
-    const totalPrice = cart.reduce((total, item) => total + item.price, 0)
-
+    const totalPrice = cart.reduce((total, item) => total + (item.price * item.quantity), 0).toFixed(2)
+    const totalQuantity = cart.reduce((total, item) => total + parseInt(item.quantity), 0)
+    console.log(totalQuantity)
+    console.log(totalPrice)
     useEffect(() => {
         if (totalPrice > 0) {
             axiosSecure.post('/create-payment-intent', { price: totalPrice })
@@ -88,7 +89,8 @@ const CheckoutForm = () => {
                 const payment = {
                     email: user.email,
                     name: user.displayName,
-                    price: totalPrice,
+                    price: parseFloat(totalPrice),
+                    quantity: totalQuantity,
                     transactionId: paymentIntent.id,
                     date: new Date(),
                     cartIds: cart.map(item => item._id),
@@ -107,6 +109,7 @@ const CheckoutForm = () => {
                 refetch()
 
                 // navigate to payment history page
+                navigate('/dashboard/paymentHistory')
 
             }
         }
