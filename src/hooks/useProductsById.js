@@ -6,7 +6,7 @@ const useProductsById = (id) => {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        fetch(`http://localhost:5001/products/${id}`)
+        fetch(`https://sir-eco-server.vercel.app/products/${id}`)
             .then(res => {
                 if (!res.ok) {
                     throw new Error('Network response was not ok');

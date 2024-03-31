@@ -5,8 +5,8 @@ import axios from "axios";
 const useAxiosPublic = () => {
 
     const axiosPublic = axios.create({
-        baseURL: 'http://localhost:5001',
-        // baseURL: 'http://localhost:5001',
+        baseURL: 'https://sir-eco-server.vercel.app',
+        // baseURL: 'https://sir-eco-server.vercel.app',
     });
 
     return axiosPublic;

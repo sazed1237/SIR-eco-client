@@ -13,7 +13,7 @@ const FeaturedProducts = () => {
     const featuredProducts = products.filter(product => product.featured === "popular")
 
     // useEffect(() => {
-    //     fetch('http://localhost:5001/products')
+    //     fetch('https://sir-eco-server.vercel.app/products')
     //         .then(res => res.json())
     //         .then(data => {
     //             // console.log(data)
@@ -28,7 +28,7 @@ const FeaturedProducts = () => {
         console.log(id)
 
 
-        fetch(`http://localhost:5001/products/${id}`)
+        fetch(`https://sir-eco-server.vercel.app/products/${id}`)
             .then(res => res.json())
             .then(data => {
                 console.log(data)

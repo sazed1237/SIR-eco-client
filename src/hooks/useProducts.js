@@ -10,7 +10,7 @@ const useProducts = () => {
 
 
     // useEffect(() => {
-    //     fetch('http://localhost:5001/products')
+    //     fetch('https://sir-eco-server.vercel.app/products')
     //         .then(res => res.json())
     //         .then(data => {
     //             setProducts(data)
